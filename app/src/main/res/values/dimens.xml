@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin_8dp">8dp</dimen>
+    <dimen name="activity_vertical_margin_8dp">8dp</dimen>
+    <dimen name="activity_horizontal_margin_16dp">16dp</dimen>
+    <dimen name="activity_vertical_margin_16dp">16dp</dimen>
+
+    <dimen name="layout_width_movie_details_title">0dp</dimen>
+    <dimen name="layout_height_movie_details_title">64dp</dimen>
+    <dimen name="layout_width_movie_overview">344dp</dimen>
+    <dimen name="review_button_margin_top">24dp</dimen>
+    <dimen name="favourite_button_margin_top">24dp</dimen>
+    <dimen name="layout_width_movie_overview_title">172dp</dimen>
+    <dimen name="layout_height_movie_trailers">48dp</dimen>
+    <dimen name="divider_height_movie_trailers">4dp</dimen>
+
+    <dimen name="movie_text_size">24sp</dimen>
+    <dimen name="movie_overview_text_size">16sp</dimen>
+</resources>

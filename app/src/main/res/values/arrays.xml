@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_sorting_options">
+        <item>@string/pref_sort_by_popular_title</item>
+        <item>@string/pref_sort_by_top_rated_title</item>
+        <item>@string/pref_favourite_movies_title</item>
+    </string-array>
+    <string-array name="pref_sorting_values">
+        <item>@string/pref_sort_by_popular</item>
+        <item>@string/pref_sort_by_top_rated</item>
+        <item>@string/pref_favourite_movies</item>
+    </string-array>
+</resources>
