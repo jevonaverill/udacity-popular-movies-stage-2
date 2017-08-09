@@ -134,11 +134,9 @@ public class Movie implements Parcelable {
         if (context.getContentResolver().insert(MovieContract.MovieEntry.CONTENT_URI,contentValues)
                 != null){
             Toast.makeText(context, "Add movie as favourite!", Toast.LENGTH_SHORT).show();
-//            Toast.makeText(context, R.string.bookmark_added,Toast.LENGTH_SHORT).show();
             return true;
         } else {
             Toast.makeText(context, "Add Error!", Toast.LENGTH_SHORT).show();
-//            Toast.makeText(context, R.string.bookmark_insert_error,Toast.LENGTH_SHORT).show();
             return false;
         }
     }
@@ -148,11 +146,9 @@ public class Movie implements Parcelable {
                 MovieContract.MovieEntry.MOVIE_ID + "=?", new String[]{Long.toString(this.id)});
         if (deletedRows > 0) {
             Toast.makeText(context, "Remove movie from favourites!", Toast.LENGTH_SHORT).show();
-//            Toast.makeText(context, R.string.bookmark_deleted,Toast.LENGTH_SHORT).show();
             return true;
         } else {
             Toast.makeText(context, "Remove error!", Toast.LENGTH_SHORT).show();
-//            Toast.makeText(context, R.string.bookmark_delete_error, Toast.LENGTH_SHORT).show();
             return false;
         }
     }

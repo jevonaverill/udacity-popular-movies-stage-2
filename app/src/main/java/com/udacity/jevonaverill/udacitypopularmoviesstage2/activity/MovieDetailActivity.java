@@ -116,7 +116,6 @@ public class MovieDetailActivity extends AppCompatActivity implements LoaderMana
             } else {
                 mImageButtonFavourite.setImageResource(android.R.drawable.btn_star_big_off);
                 Picasso.with(this).load(mMovie.getPosterUri(getString(R.string.movie_image_default_size)))
-                        .error(R.drawable.error).placeholder(R.drawable.placeholder)
                         .into(new Target(){
                             @Override
                             public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {

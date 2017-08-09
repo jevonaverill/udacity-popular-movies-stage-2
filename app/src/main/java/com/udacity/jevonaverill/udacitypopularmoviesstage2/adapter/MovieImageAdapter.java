@@ -97,8 +97,7 @@ public class MovieImageAdapter extends RecyclerView.Adapter<MovieImageAdapter.Mo
 
         void setMovieImage(Movie movie){
             Uri posterUri = movie.getPosterUri(mContext.getString(R.string.movie_image_default_size));
-            Picasso.with(mContext).load(posterUri).error(R.drawable.error)
-                    .placeholder(R.drawable.placeholder).into(ivMovie);
+            Picasso.with(mContext).load(posterUri).into(ivMovie);
         }
 
         @Override
